@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+ 
+ .containar{
+    width: 1130px;
+    padding: 15px;
+    margin: 0px auto;
+}
+
+.container:before,
+.container:after {
+	content: "";
+	display: table;
+	clear: both;
+
+}
+ .col-25{  
+    width: 25%;
+    float: left;
+    padding: 0px;
+}
+
+.col-30{
+    width: 30%;
+    float: left;
+    padding: 0px;
+}
+
+.col-33{
+    width: 33.33%;
+    float: left;
+    padding: 0px;
+}
+
+.col-40{
+    width: 40%;
+    float: left;
+    padding: 0px;
+}
+
+.col-50{
+    width: 50%;
+    float: left;
+    padding: 0px;
+}
+
+
+.col-60{
+    width: 60%;
+    float: left;
+    padding: 0px;
+}
+
+.col-70{
+    width: 70%;
+    float: left;
+    padding: 0px;
+}
+
+.col-75{
+    width: 75%;
+    float: left;
+    padding: 0px;
+}
+
+.col-80{
+    width: 80%;
+    float: left;
+    padding: 0px;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    padding: 0px;
+}
+
+
+.header{
+    background-color: #85CCC5;
+    height: 70px;
+}
+
+.logo img{
+    height: 80px;
+    margin: -15px;
+    
+}
+
+.main-manu{
+    margin: 15px;
+    float: right;
+}
+
+.main-manu  li{
+    display: inline;
+    padding: 20px 20px;
+}
+
+.main-manu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.section1{
+	background-image: url(../images/h1-slide-1.jpg);
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+    background-position: center;
+}
+.content-left{
+    font-size: 76px;
+    font-family: 'Nunito', sans-serif;
+    color: #85CCC5;
+}
+
+.content-left p{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+.content-left button{
+    background-color: #FDD172;
+    padding: 18px 46px;
+    border-style: none;
+    font-weight: bold;
+    color: gray;
+}
+.content-1{
+    background-image: url(../images/h1-box-1.jpg);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 128px 0 21px 25px;
+    color: #fff;
+    margin-top: -80px;
+}
+.content-1 h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+.content-1 p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.content-2{
+    background-image: url(../images/h1-box-2.png);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 128px 0 21px 25px;
+    color: #fff;
+    margin-top: -80px;
+}
+.content-2 h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+.content-2 p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.content-3{
+    background-image: url(../images/h1-box-3.jpg);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 128px 0 21px 25px;
+    color: #fff;
+    margin-top: -80px;
+}
+.content-3 h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+.content-3 p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.box1{
+    padding-top: 80px;
+}
+.box1 img{
+    float: left;
+}
+.box1 h3{
+    padding: 37px 0 25px 80px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+.box1 p{
+    font-size: 15px;
+    color: #888888;
+    line-height: 28px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+
+
+.cotent-4 .col-33{
+}
+.gl-con1 img{
+    width: 100%;
+    height: auto;
+}
+.gl-con1{
+position: relative;
+}
+.gl-con2 img{
+    width: 100%;
+    height: auto;
+}
+.gl-con2{
+position: relative;
+}
+.gl-con3 img{
+    width: 100%;
+    height: auto;
+}
+.gl-con3{
+position: relative;
+}
+.section-5 .col-50{
+    padding-top: 60px;
+}
+.section-5 img{
+    width: 100%;
+    height: 100%;
+}
+.cotent-4 h3{
+    text-align: center;
+    color: #434343;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.cotent-4 p{
+    text-align: center;
+    color: #434343;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.lower-content h3{
+    text-align: center;
+    color: #434343;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.lower-content p{
+    text-align: center;
+    color: #434343;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    padding: 0 0 23px 0;
+    margin: 20px;
+}
+.lower-img1 img{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.fotter{
+    background-image: url(../images/birds.png);
+    width: auto;
+    height: 300px;
+}
+.fotter h2{
+    text-align: center;
+    font-size: 40px;
+    color: #5D5D5C;
+    padding-top: 90px;
+    font-family: 'Nunito', sans-serif;
+}
+.from{
+    font-size: 30px;
+    text-align: center;
+}
+.from input{
+    padding: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+.from button{
+    padding: 15px 76px;
+    background: #FDCF71;
+    border: none;
+    color: #fff;
+    margin: 15px;
+    font-weight: bold;
+}
